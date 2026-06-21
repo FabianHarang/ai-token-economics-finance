@@ -59,11 +59,11 @@ const learningModules: LearningModule[] = [
     icon: BookOpenCheck,
     title: "What is an AI token?",
     subtitle:
-      "Tokenization, input-output service units, model quality, USD prices, energy use, and hedgeable token exposure.",
+      "A token is a technical unit, a billing unit, and a financial exposure. The module separates those meanings before using them in the model.",
     deliverable:
-      "A self-contained article explaining tokenization, non-equivalent model tokens, USD token prices, cost per solved task, token spreads, token indices, optimal allocation, risk management, and how token units enter the ABM.",
+      "A self-contained article on raw tokens, service tokens, effective task units, and the economic reason that model tokens cannot be treated as interchangeable.",
     verification:
-      "Verify that the page is clear enough for a mathematical economist or policy student to understand tokens as non-equivalent priced exposures.",
+      "Verify that the reader can explain why two token prices cannot be compared without a task and quality adjustment.",
   },
   {
     id: "learn-economic-asset",
@@ -71,11 +71,11 @@ const learningModules: LearningModule[] = [
     icon: LineChart,
     title: "How can tokens become tradable assets?",
     subtitle:
-      "Spot token dynamics, reserved compute, forwards, options, priority rights, index contracts, and basis risk.",
+      "The module asks what has to be standardized before AI-compute service can be traded, hedged, or indexed.",
     deliverable:
-      "A detailed market-design article linking token contracts, stochastic spot-price dynamics, calibration, electricity, commodity finance, and platform economics.",
+      "A market-design article that moves from posted provider prices to tradable service claims and explains where basis risk enters.",
     verification:
-      "Verify that the derivative logic is mathematically motivated without confusing AI tokens with cryptocurrency tokens.",
+      "Verify that the contract logic is precise and clearly separated from cryptocurrency language.",
   },
   {
     id: "learn-token-production-energy",
@@ -83,11 +83,11 @@ const learningModules: LearningModule[] = [
     icon: Zap,
     title: "How do tokens become energy and climate exposure?",
     subtitle:
-      "Inference compute, facility energy, grid bottlenecks, stochastic weather, electricity prices, pass-through, and climate stress testing.",
+      "Token demand eventually becomes physical load. The module follows that path from inference service to grid stress.",
     deliverable:
-      "A textbook-style chapter tracing tokenized AI service from input and output tokens to compute load, electricity demand, weather-sensitive price shocks, climate risk, and financial stress metrics.",
+      "A chapter on inference energy, facility overhead, stochastic weather, electricity prices, and the financial risk created by local infrastructure limits.",
     verification:
-      "Verify that the reader can trace a tokenized AI service request from input/output tokens to compute load, electricity demand, grid risk, and token-price exposure.",
+      "Verify that the reader can trace a service request from model use to electricity demand and token-price exposure.",
   },
   {
     id: "learn-equation-map",
@@ -95,9 +95,9 @@ const learningModules: LearningModule[] = [
     icon: Sigma,
     title: "Mathematical Model of Token Economics",
     subtitle:
-      "A formal task-based model of token classes, effective service, capacity constraints, stochastic prices, welfare, policy, and risk.",
+      "A formal map from task demand to service tokens, capacity constraints, prices, welfare, and risk.",
     deliverable:
-      "A rigorous mathematical model chapter with explicit units, stated assumptions, declared variables, motivated equations, and links to simulator outputs.",
+      "A mathematical chapter that states the units, assumptions, variables, equations, and simulator links needed to reproduce the model.",
     verification:
       "Verify that a mathematical economist can reproduce the model logic from the documentation.",
   },
@@ -107,11 +107,11 @@ const learningModules: LearningModule[] = [
     icon: Network,
     title: "Agent-Based Analysis Tool for Token Economics",
     subtitle:
-      "A transparent ABM laboratory for heterogeneous demand, policy routing, stochastic weather, capacity bottlenecks, market clearing, and delayed investment.",
+      "The ABM shows how heterogeneous users, infrastructure constraints, policy rules, and delayed investment interact over time.",
     deliverable:
-      "A textbook-style ABM design chapter covering agents, states, scheduling, decision rules, market interactions, stochasticity, calibration, validation, and interpretation.",
+      "A design chapter that explains the agents, state variables, timing, stochastic shocks, validation checks, and interpretation of results.",
     verification:
-      "Verify that the ABM architecture is credible as a research instrument, not only a dashboard story.",
+      "Verify that the ABM architecture is credible as a research instrument.",
   },
   {
     id: "learn-policy-lab",
@@ -119,9 +119,9 @@ const learningModules: LearningModule[] = [
     icon: Landmark,
     title: "How do policy and geopolitics shape token finance?",
     subtitle:
-      "Compute sovereignty, allied access, grid investment, climate exposure, subsidies, public priority, and welfare tradeoffs.",
+      "Compute policy changes who can access capacity, which workloads must stay local, and who bears the cost of scarcity.",
     deliverable:
-      "A policy-analysis chapter explaining experiment design, objectives, welfare criteria, and interpretation of scenario results.",
+      "A policy-analysis chapter that explains experiment design, welfare criteria, and interpretation of scenario results.",
     verification:
       "Verify that the policy implications are balanced, transparent, and useful for scenario design.",
   },
@@ -131,9 +131,9 @@ const learningModules: LearningModule[] = [
     icon: BrainCircuit,
     title: "How can learning methods improve token finance research?",
     subtitle:
-      "Neural surrogates, learned token-quality indices, Bayesian calibration, reinforcement learning, and multi-agent strategic adaptation.",
+      "Learning methods can help estimate hidden quantities, explore scenarios, and test policies while leaving the economic structure visible.",
     deliverable:
-      "A textbook-style research roadmap for extending token-economics models with modern learning methods while preserving interpretability, auditability, and economic structure.",
+      "A research roadmap for using modern learning methods without losing interpretability, auditability, or economic discipline.",
     verification:
       "Verify that the roadmap is ambitious but scientifically disciplined.",
   },
@@ -143,9 +143,9 @@ const learningModules: LearningModule[] = [
     icon: Database,
     title: "How should token-economics models be measured and calibrated?",
     subtitle:
-      "Data architecture, measurement equations, latent variables, calibration targets, validation scores, provenance, and reproducible research workflows.",
+      "The model contains observable variables and latent quantities. This module explains how empirical evidence can discipline both.",
     deliverable:
-      "A rigorous data and calibration chapter explaining which token-economics quantities are observable, which are latent, how empirical moments enter the model, and how validation should be scored.",
+      "A calibration chapter on measurement equations, empirical moments, validation scores, provenance, and reproducible workflows.",
     verification:
       "Verify that the calibration workflow is reproducible, scientifically cautious, and honest about measurement limits.",
   },
@@ -155,9 +155,9 @@ const learningModules: LearningModule[] = [
     icon: Layers,
     title: "How should token exposure be allocated, hedged, and stress tested?",
     subtitle:
-      "Exposure vectors, token portfolios, hedge ratios, basis risk, derivatives, margin, budget-at-risk, CVaR, and robust procurement.",
+      "The module treats future compute demand as a portfolio problem with basis risk and tail-budget exposure.",
     deliverable:
-      "A mathematical-finance chapter showing how token users and intermediaries can measure exposures, build hedges, control tail budgets, and interpret basis risk.",
+      "A mathematical-finance chapter on exposure measurement, hedge construction, tail-budget control, and basis-risk diagnosis.",
     verification:
       "Verify that a mathematical finance student can formulate and diagnose a token hedging problem from first principles.",
   },
@@ -167,9 +167,9 @@ const learningModules: LearningModule[] = [
     icon: CheckCircle2,
     title: "Theorems, Proofs, and Research Frontiers",
     subtitle:
-      "A formal proof layer for existence, monotonicity, scarcity rents, hedging, CVaR, simulator selection, identification, and open research questions.",
+      "The module states what can be proved under explicit assumptions and where the research frontier begins.",
     deliverable:
-      "A research-level mathematical chapter that states assumptions explicitly, proves modest but useful results, marks unsupported claims as conjectures, and identifies frontier problems in token finance.",
+      "A research-level chapter with assumptions, propositions, proofs, counterexamples, and open problems in token finance.",
     verification:
       "Verify that every theorem has assumptions, a clear conclusion, a readable proof, and an honest discussion of where the result can fail.",
   },
@@ -1492,38 +1492,41 @@ function TokenTheoremProofArticle() {
         <section id="proof-roadmap">
           <h3>1. Roadmap: What Can Be Proved?</h3>
           <p className="learning-lede">
-            The previous modules define token classes, task-adjusted service
-            units, energy exposure, market design, portfolio hedging, and an
-            agent-based simulator. This chapter adds a formal proof layer. It
-            states which results follow from standard assumptions and which
-            claims remain research conjectures.
+            The previous modules build the vocabulary of the project. They show
+            how a task becomes a token-service request, why capacity and energy
+            enter the price, and how a buyer inherits basis risk. This chapter
+            asks a narrower mathematical question: which claims follow once the
+            assumptions are stated?
           </p>
           <p>
             A proof layer is useful because token economics sits between
             mathematical finance, energy economics, AI systems, and policy
-            design. Some statements are immediate mathematical consequences:
-            enlarging capacity cannot reduce the value of a maximization
-            problem. Other statements require much stronger conditions:
-            token-price dynamics are not automatically arbitrage-free, and a
-            quality-adjusted token index is not automatically manipulation
-            resistant.
+            design. Some statements follow directly from the model. For example,
+            a capacity expansion weakly enlarges the feasible allocation set, so
+            the optimal welfare value weakly increases. Other statements need
+            institutional assumptions. Arbitrage-free token derivatives require
+            a settlement unit, a delivery convention, and a model of residual
+            basis risk. A quality-adjusted token index also needs benchmark
+            governance before it can be used for settlement.
           </p>
           <div className="learning-goal-grid">
             <article>
               <CheckCircle2 size={20} />
               <h4>Proved results</h4>
               <p>
-                Existence, monotonicity, KKT scarcity rents, hedge ratios, CVaR
-                convexity, simulator well-definedness, and local identification.
+                The chapter proves existence of a welfare-selected allocation,
+                weak capacity monotonicity, KKT scarcity rents, hedge-ratio
+                formulas, CVaR convexity, simulator well-definedness, and a
+                local identification condition.
               </p>
             </article>
             <article>
               <FlaskConical size={20} />
               <h4>Research frontiers</h4>
               <p>
-                Token index governance, non-storable service derivatives,
-                strategic provider pricing, weather-grid coupling, and
-                differentiable ABM calibration.
+                The open problems begin when service quality, provider strategy,
+                weather-driven electricity prices, and benchmark governance move
+                together.
               </p>
             </article>
           </div>
@@ -1532,10 +1535,10 @@ function TokenTheoremProofArticle() {
         <section id="proof-assumptions">
           <h3>2. A Minimal Assumption System</h3>
           <p>
-            The following assumptions are intentionally modest. They are not a
-            claim that real token markets are perfectly competitive or complete.
-            They are a clean mathematical environment in which the model
-            operator can be studied.
+            The following assumptions define a clean mathematical environment for
+            the model operator. Real token markets may be strategic, incomplete,
+            and institutionally constrained. Those complications can be added
+            after the baseline objects are well defined.
           </p>
           <ProofBlock kind="Assumption A1" title="Finite state and decision dimensions">
             <p>
@@ -1619,9 +1622,9 @@ function TokenTheoremProofArticle() {
               function on a nonempty compact set attains its maximum.
             </p>
             <p>
-              This is an existence result, not a uniqueness result. Multiple
-              allocations can be optimal when two token classes are perfect
-              substitutes, when rationing rules tie, or when a policy cap
+              The theorem guarantees existence. It does not guarantee uniqueness.
+              Multiple allocations can be optimal when two token classes are
+              perfect substitutes, when rationing rules tie, or when a policy cap
               creates flat regions in the objective.
             </p>
           </ProofBlock>
@@ -1631,9 +1634,9 @@ function TokenTheoremProofArticle() {
           <h3>4. Capacity Monotonicity</h3>
           <p>
             Capacity monotonicity is simple but important. It gives the model a
-            basic economic sanity check: relaxing a bottleneck cannot make the
-            best achievable welfare lower if all other primitives are held
-            fixed.
+            basic economic sanity check. If all other primitives are fixed,
+            relaxing a bottleneck weakly enlarges the feasible set. The best
+            achievable welfare value therefore weakly increases.
           </p>
           <ProofBlock kind="Theorem 2" title="Weak value monotonicity in capacity">
             <p>
@@ -1651,9 +1654,9 @@ function TokenTheoremProofArticle() {
               <InlineMath latex={String.raw`Ax\le K\le K'`} />. Hence{" "}
               <InlineMath latex={String.raw`x\in\mathcal X(K')`} />. Therefore{" "}
               <InlineMath latex={String.raw`\mathcal X(K)\subseteq\mathcal X(K')`} />.
-              Maximizing the same objective over a larger feasible set cannot
-              produce a lower supremum. Existence from Theorem 1 turns the
-              supremum into a maximum.
+              Maximizing the same objective over a larger feasible set weakly
+              raises the supremum. Existence from Theorem 1 turns the supremum
+              into a maximum.
             </p>
             <p>
               Strict improvement requires additional assumptions. If the
@@ -1856,9 +1859,9 @@ function TokenTheoremProofArticle() {
         <section id="proof-calibration">
           <h3>9. Local Identification in Moment Calibration</h3>
           <p>
-            Calibration is not just fitting curves. A parameter is locally
+            Calibration is a claim about information. A parameter is locally
             identifiable only when the selected moments contain enough
-            independent information to distinguish nearby parameter values.
+            independent variation to distinguish nearby parameter values.
           </p>
           <ProofBlock kind="Proposition 2" title="Rank condition for local identification">
             <p>
@@ -1886,10 +1889,11 @@ function TokenTheoremProofArticle() {
               the quadratic moment objective.
             </p>
             <p>
-              In token economics, this warning matters because demand growth,
-              solved-task yield, output-token variance, and policy routing can
-              generate similar aggregate budget moments. Identification requires
-              moments that separate these mechanisms.
+              In token economics, this warning matters because several mechanisms
+              can generate similar aggregate budget moments. Demand may grow.
+              Solved-task yield may improve. Output-token variance may change.
+              Policy routing may move workloads into a constrained region.
+              Identification requires moments that separate these mechanisms.
             </p>
           </ProofBlock>
         </section>
@@ -2018,10 +2022,10 @@ function TokenTheoremProofArticle() {
             <FlaskConical size={20} />
             <p>
               A 2026 arXiv preprint on AI token futures is a useful signal that
-              this research direction is emerging, but it should be cited as a
-              preprint rather than treated as settled literature. The stronger
-              foundation still comes from published asset-pricing, electricity,
-              commodity, benchmark-governance, and calibration literature.
+              this research direction is emerging. It should be cited with its
+              preprint status clearly marked. The stronger foundation still comes
+              from published work on asset pricing, electricity markets,
+              commodity markets, benchmark governance, and calibration.
             </p>
           </div>
         </section>
@@ -4349,12 +4353,12 @@ Q_{i,j,r,t}\,e^{fac}_{j,r,t}
           />
           <p>
             This sequence makes uncertainty visible. Changing a policy scenario
-            should not merely change a label in the interface. It should change
-            at least one state transition, constraint, cost term, eligibility
-            set, or priority rule. For example, a grid-investment policy raises
-            future <InlineMath latex={String.raw`K^{grid}_{r,t}`} /> after a
-            delay. A local-compute mandate restricts eligible regions and can
-            raise certified-token scarcity. A carbon-price policy changes the
+            should change the model itself. It should alter a state transition,
+            constraint, cost term, eligibility set, or priority rule. For
+            example, a grid-investment policy raises future{" "}
+            <InlineMath latex={String.raw`K^{grid}_{r,t}`} /> after a delay. A
+            local-compute mandate restricts eligible regions and can raise
+            certified-token scarcity. A carbon-price policy changes the
             marginal-cost term and the investment value of low-carbon capacity.
           </p>
         </section>
@@ -5116,9 +5120,9 @@ function AbmArchitectureLab() {
 
       <p className="token-lab-note">
         The calculator is a reduced teaching model. It does not estimate a real
-        EU token price. It shows why the ABM must update demand, policy routing,
-        weather, capacity, clearing, allocation, and investment sequentially
-        rather than treating token price as a fixed exogenous number.
+        EU token price. It shows why token price is an outcome of the simulated
+        system. Demand, policy routing, weather, capacity, clearing, allocation,
+        and investment are updated in sequence.
       </p>
     </div>
   );
@@ -5139,20 +5143,21 @@ function TokenMathematicalModelArticle() {
           <h3>1. Roadmap, Units, and Learning Goals</h3>
           <p className="learning-lede">
             This chapter specifies the mathematical model used by the token
-            economics resource. It is written as a model specification, not as a
-            collection of formulas. Each equation has a role: defining a unit,
-            mapping tasks into service demand, imposing a feasibility
-            constraint, clearing a market, valuing welfare, or measuring risk.
+            economics resource. The aim is to make the model reproducible. A
+            reader should be able to start with a task, follow the conversion
+            into service demand, identify the binding constraints, and then see
+            how prices and welfare are computed.
           </p>
           <p>
             The central object is the model operator{" "}
             <InlineMath latex={String.raw`\Phi_{\theta}`} />. It is constructed
-            from primitives, feasible allocations, market or welfare-selection
-            conditions, and stochastic state dynamics. The notation{" "}
+            in layers. First come the primitives: users, tasks, token classes,
+            capacity, and policy rules. The feasible set then says which
+            allocations can actually be delivered. Market-clearing and welfare
+            equations translate feasible allocations into observable outcomes.
+            The notation{" "}
             <InlineMath latex={String.raw`\Phi_{\theta}`} /> is reserved for
-            this global mapping from assumptions to outcomes; delivery
-            adjustments, quality penalties, and settlement conventions receive
-            separate symbols below.
+            that full mapping from assumptions to outcomes.
           </p>
           <p>
             The equilibrium logic follows standard mathematical economics: goods
@@ -5167,10 +5172,9 @@ function TokenMathematicalModelArticle() {
             <CitationLink id="masColell1995">
               Mas-Colell, Whinston, and Green (1995)
             </CitationLink>
-            . The token-specific contribution is that the goods are
-            heterogeneous AI-service claims whose usefulness depends on task,
-            model quality, region, latency, reliability, energy, and legal
-            admissibility.
+            . In this project, the goods are AI-compute service claims. Their
+            value depends on the task they serve, the model used, the region of
+            delivery, and the legal rules that govern access.
           </p>
           <MathEquation
             title="Model sequence"
@@ -5235,25 +5239,23 @@ function TokenMathematicalModelArticle() {
           <div className="equation-index-panel" aria-label="Equation index">
             <article className="equation-index-row">
               <header>
-                <span>Equation Block</span>
+                <span>Model layer</span>
                 <h4>Model Operator</h4>
                 <p>
-                  How primitives, constraints, shocks, and selection rules
-                  generate outcomes.
+                  The outer map takes primitives and shocks as inputs and returns
+                  the observable outcomes implied by the model.
                 </p>
               </header>
               <div className="equation-index-variables">
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`\Phi_{\theta}`} />
-                    <code>\Phi_\theta</code>
                   </div>
                   <p>Outcome correspondence.</p>
                 </div>
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`Y_t`} />
-                    <code>Y_t</code>
                   </div>
                   <p>Reported outcome vector.</p>
                 </div>
@@ -5262,24 +5264,24 @@ function TokenMathematicalModelArticle() {
 
             <article className="equation-index-row">
               <header>
-                <span>Equation Block</span>
+                <span>Model layer</span>
                 <h4>Task Demand</h4>
                 <p>
-                  Why an agent wants AI service and how adoption changes volume.
+                  Demand starts from the task an agent wants to complete. Token
+                  demand appears only after that task has been routed through a
+                  model-service technology.
                 </p>
               </header>
               <div className="equation-index-variables">
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`D_{i,u,t}`} />
-                    <code>D_{"{i,u,t}"}</code>
                   </div>
                   <p>Desired volume of task type u by agent i at date t.</p>
                 </div>
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`P^{task}_{i,u,t}`} />
-                    <code>P^task_{"{i,u,t}"}</code>
                   </div>
                   <p>Task-level willingness to pay.</p>
                 </div>
@@ -5288,25 +5290,23 @@ function TokenMathematicalModelArticle() {
 
             <article className="equation-index-row">
               <header>
-                <span>Equation Block</span>
+                <span>Model layer</span>
                 <h4>Quality Conversion</h4>
                 <p>
-                  Why one provider token is not equivalent to another provider
-                  token.
+                  A provider token becomes economically meaningful after it is
+                  converted into expected solved-task service.
                 </p>
               </header>
               <div className="equation-index-variables">
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`y_{j,u,t}`} />
-                    <code>y_{"{j,u,t}"}</code>
                   </div>
                   <p>Expected solved-task yield of token class j.</p>
                 </div>
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`Q^{eff}_{i,u,t}`} />
-                    <code>Q^eff_{"{i,u,t}"}</code>
                   </div>
                   <p>Effective task-adjusted service.</p>
                 </div>
@@ -5315,25 +5315,24 @@ function TokenMathematicalModelArticle() {
 
             <article className="equation-index-row">
               <header>
-                <span>Equation Block</span>
+                <span>Model layer</span>
                 <h4>Capacity Feasibility</h4>
                 <p>
-                  How GPUs, data centres, electricity, grid connection, power
-                  contracts, and compliance restrict supply.
+                  This layer checks whether requested service can be delivered
+                  through available compute, electricity, grid access, and
+                  admissible regions.
                 </p>
               </header>
               <div className="equation-index-variables">
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`x_t`} />
-                    <code>x_t</code>
                   </div>
                   <p>Delivered service allocation.</p>
                 </div>
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`K_t`} />
-                    <code>K_t</code>
                   </div>
                   <p>Deliverable capacity vector.</p>
                 </div>
@@ -5342,25 +5341,23 @@ function TokenMathematicalModelArticle() {
 
             <article className="equation-index-row">
               <header>
-                <span>Equation Block</span>
+                <span>Model layer</span>
                 <h4>Market Clearing</h4>
                 <p>
-                  How shortages, rationing, and bottleneck scarcity rents
-                  appear.
+                  When feasible capacity is scarce, the model records unmet
+                  demand and assigns shadow values to the binding bottlenecks.
                 </p>
               </header>
               <div className="equation-index-variables">
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`U_{j,t}`} />
-                    <code>U_{"{j,t}"}</code>
                   </div>
                   <p>Unmet token demand.</p>
                 </div>
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`\rho_{b,t}`} />
-                    <code>\rho_{"{b,t}"}</code>
                   </div>
                   <p>Bottleneck scarcity rent.</p>
                 </div>
@@ -5369,18 +5366,17 @@ function TokenMathematicalModelArticle() {
 
             <article className="equation-index-row">
               <header>
-                <span>Equation Block</span>
+                <span>Model layer</span>
                 <h4>Risk and Hedging</h4>
                 <p>
-                  How future token expenditures, spreads, and tail losses are
-                  measured.
+                  The finance layer studies how future procurement costs move
+                  across scenarios and how much tail risk remains after hedging.
                 </p>
               </header>
               <div className="equation-index-variables">
                 <div className="equation-index-variable">
                   <div className="equation-index-symbol">
                     <InlineMath latex={String.raw`\Sigma^{tok}_{t}`} />
-                    <code>\Sigma^tok_t</code>
                   </div>
                   <p>Token-price covariance matrix.</p>
                 </div>
@@ -5389,7 +5385,6 @@ function TokenMathematicalModelArticle() {
                     <InlineMath
                       latex={String.raw`\operatorname{CVaR}_{\alpha}`}
                     />
-                    <code>CVaR_alpha</code>
                   </div>
                   <p>Tail budget-risk functional.</p>
                 </div>
@@ -6736,7 +6731,8 @@ function TokenMathematicalModelArticle() {
             </CitationLink>
             . In token finance, the scenarios should include model-quality
             shocks, provider outages, capacity shortages, electricity spikes,
-            and compliance restrictions, not only ordinary price volatility.
+            and compliance restrictions. Ordinary price volatility is only one
+            part of the loss distribution.
           </p>
         </section>
 
@@ -7143,11 +7139,10 @@ function TokenAbmArchitectureArticle() {
           <h3>1. Roadmap and Learning Goals</h3>
           <p className="learning-lede">
             This module documents the agent-based analysis tool used in this
-            resource. The tool is not presented as a forecasting engine. It is a
-            transparent computational laboratory for studying how heterogeneous
-            AI-token demand, policy routing, grid bottlenecks, weather shocks,
-            electricity prices, capacity investment, and rationing can interact
-            over time.
+            resource. The tool is a transparent computational laboratory. It
+            studies how heterogeneous AI-compute demand evolves under policy
+            routing, grid bottlenecks, weather shocks, electricity prices, delayed
+            capacity investment, and rationing.
           </p>
           <p>
             The chapter follows the ODD tradition for individual-based and
@@ -7169,8 +7164,9 @@ function TokenAbmArchitectureArticle() {
             <article>
               <CheckCircle2 size={18} />
               <p>
-                Explain why token economics needs heterogeneous agents, not only
-                a representative demand curve.
+                Explain why token economics needs heterogeneous agents. Different
+                users have different values, legal constraints, and tolerance for
+                rationing.
               </p>
             </article>
             <article>
@@ -7546,10 +7542,9 @@ function TokenAbmArchitectureArticle() {
           <h3>6. State Variables</h3>
           <p>
             A state variable is a quantity that must be remembered from one
-            quarter to the next. In this model, state is not only economic. It
-            includes physical infrastructure, electricity zones, stochastic
-            weather stress, policy settings, and investment already under
-            construction.
+            quarter to the next. The state includes economic demand, physical
+            infrastructure, electricity zones, stochastic weather stress, policy
+            settings, and investment already under construction.
           </p>
           <MathEquation
             title="Simulation state vector"
@@ -7664,8 +7659,8 @@ function TokenAbmArchitectureArticle() {
             Demand begins with an agent-class baseline and grows with adoption,
             workflow deepening, and economic intensity. Policy can then route a
             share of this demand into a local or certified pool. The important
-            distinction is that policy does not merely raise or lower total
-            demand. It changes which capacity set is legally admissible.
+            distinction is legal rather than arithmetic. Policy changes which
+            capacity set is admissible for a given task.
           </p>
           <MathEquation
             title="Demand split"
@@ -8975,12 +8970,11 @@ function TokenPolicyGeopoliticsArticle() {
         <section id="policy-object">
           <h3>1. The Policy Problem</h3>
           <p>
-            A policy rule is not only a tax, subsidy, or ban. In token economics
-            it can define which models may be used, which regions are
-            admissible, which agents receive priority, which capacity must be
-            reserved, which benchmarks are acceptable, and which risks must be
-            disclosed. The policy object is therefore a vector of institutional
-            choices.
+            In token economics, policy is best treated as a vector of
+            institutional choices. It can determine which models may be used,
+            which delivery regions are admissible, which agents receive priority,
+            which capacity must be reserved, which benchmarks are acceptable, and
+            which risks must be disclosed.
           </p>
           <MathEquation
             title="Policy design object"
@@ -9096,16 +9090,17 @@ function TokenPolicyGeopoliticsArticle() {
         <section id="policy-geopolitics">
           <h3>4. Geopolitical Exposure and Network Power</h3>
           <p>
-            Token service depends on networks: semiconductor supply, model
+            Token service depends on networks. Semiconductor supply, model
             providers, cloud regions, data centres, power contracts, cables,
-            benchmarks, payment systems, and export controls.{" "}
+            benchmarks, payment systems, and export controls all shape the
+            feasible service set.{" "}
             <CitationLink id="farrellNewman2019">
               Farrell and Newman (2019)
             </CitationLink>{" "}
             show why asymmetric network positions can become instruments of
-            state coercion. In token economics, the relevant question is not
-            merely whether foreign capacity is used, but whether it can be
-            withdrawn, monitored, priced discriminatorily, or legally blocked.
+            state coercion. In token economics, the relevant question is whether
+            foreign-controlled capacity can be withdrawn, monitored, priced
+            discriminatorily, or legally blocked.
           </p>
           <table className="learning-table">
             <thead>
@@ -9187,18 +9182,19 @@ function TokenPolicyGeopoliticsArticle() {
           <p>
             The use of{" "}
             <CitationLink id="rockafellarUryasev2000">CVaR</CitationLink> is
-            important because token policy is often about crisis performance,
-            not only average cost.
+            important because token policy is often about crisis performance.
+            Average cost can look acceptable while the lower tail contains severe
+            unmet critical demand.
           </p>
         </section>
 
         <section id="policy-distribution">
           <h3>6. Distributional Effects</h3>
           <p>
-            Token scarcity is not neutral. Public agencies, hospitals, SMEs,
+            Token scarcity is distributional. Public agencies, hospitals, SMEs,
             regulated firms, households, and frontier AI providers can face very
             different welfare consequences. The ABM should therefore report
-            group-level outcomes rather than only aggregate welfare.
+            group-level outcomes alongside aggregate welfare.
           </p>
           <MathEquation
             title="Distribution-weighted welfare"
@@ -9988,9 +9984,9 @@ function TokenAdvancedLearningArticle() {
         <section id="advanced-calibration">
           <h3>3. Bayesian Calibration and Model Discrepancy</h3>
           <p>
-            Calibration is not merely parameter fitting. In a scientific model,
-            calibration should acknowledge that the simulator may be wrong. The
-            Bayesian calibration framework of{" "}
+            Calibration should acknowledge that the simulator may be wrong. A
+            scientific model needs parameters, but it also needs an explicit way
+            to represent model discrepancy. The Bayesian calibration framework of{" "}
             <CitationLink id="kennedyOHagan2001">
               Kennedy and O'Hagan (2001)
             </CitationLink>{" "}
@@ -10858,10 +10854,10 @@ function DataCalibrationLab() {
       </div>
 
       <p className="token-lab-note">
-        The laboratory is a teaching device. It illustrates why calibration is
-        not only a numerical optimizer: data coverage, source independence,
+        The laboratory is a teaching device. It illustrates that calibration is a
+        scientific measurement problem. Data coverage, source independence,
         measurement noise, provenance, and holdout validation determine whether
-        fitted parameters are scientifically meaningful.
+        fitted parameters are meaningful.
       </p>
     </div>
   );
@@ -12058,8 +12054,8 @@ function TokenPortfolioHedgingArticle() {
           <p>
             Portfolio weights route tasks across token classes. A cheaper token
             class is not necessarily a feasible substitute if it fails quality,
-            latency, or legal constraints. The feasible set must therefore
-            encode service requirements, not only budget limits.
+            latency, or legal constraints. The feasible set must therefore encode
+            service requirements as well as budget limits.
           </p>
           <MathEquation
             title="Feasible routing set"
@@ -12777,11 +12773,11 @@ function TokenMarketArticle() {
             by token class, region, and service level.
           </p>
           <p>
-            This is a microstructure statement, not only a pricing statement.
-            The allocation rule determines whether scarcity appears as a posted
-            price, queue, rate limit, priority tier, rationing rule, or
-            bilateral contract. Different trading mechanisms can generate
-            different prices for the same underlying scarcity (
+            This is a microstructure statement. The allocation rule determines
+            whether scarcity appears as a posted price, queue, rate limit,
+            priority tier, rationing rule, or bilateral contract. Different
+            trading mechanisms can generate different prices for the same
+            underlying scarcity (
             <CitationLink id="ohara1995">O'Hara, 1995</CitationLink>).
           </p>
           <MathEquation
@@ -15047,17 +15043,24 @@ Cost_{u,t}
           <p>
             Once token classes are non-equivalent, spreads become meaningful.
             The spread between a frontier reasoning token and a small-model
-            token is not just a price difference. It is a difference in expected
-            task yield, latency, compliance, reliability, and future
-            availability. A user or firm can be exposed to a specific spread
-            even if its total token volume is stable.
+            token measures more than a posted price gap. It reflects the
+            expected cost of obtaining a successful task completion through two
+            different service technologies.
+          </p>
+          <p>
+            The economic spread widens when the frontier model becomes more
+            valuable for the relevant task, when small-model retries become more
+            expensive, or when certified access to the frontier model becomes
+            scarce. A firm can therefore have stable total token volume and still
+            carry a large exposure to the frontier-small spread.
           </p>
           <p>
             The spread language is borrowed from commodity, electricity, and
-            fixed-income risk management. The analogy is useful but imperfect:
-            token spreads combine price co-movement with model-quality,
-            compliance, and latency basis. This is why the spread below is
-            defined on task-adjusted prices rather than raw API prices.
+            fixed-income risk management. The analogy is useful because each
+            field studies relative prices between related claims. AI-compute
+            spreads add a further complication: the two claims may differ in
+            model quality, legal admissibility, latency, and future availability.
+            For this reason the spread below is defined on task-adjusted prices.
           </p>
           <MathEquation
             title="Task-adjusted token spread"
@@ -15119,9 +15122,11 @@ Cost_{u,t}
             The analogy to electricity markets is useful. Electricity hedges
             often face locational basis risk: a contract at one hub does not
             perfectly hedge prices at another node. AI-token hedges would face
-            model-quality basis risk, compliance basis risk, latency basis risk,
-            and regional compute basis risk. These are not minor details; they
-            are the research problem.
+            model-quality basis risk when two models solve tasks at different
+            rates. They would face compliance basis risk when a hedge instrument
+            settles on a service class that cannot be used for the buyer's legal
+            workload. Regional compute basis risk enters when the hedge settles
+            in a delivery pool with different grid or capacity conditions.
           </p>
         </section>
 
@@ -15129,11 +15134,17 @@ Cost_{u,t}
           <h3>13. A Token Index of Equivalent Model Service</h3>
           <p>
             Because raw tokens are not comparable, a useful market benchmark
-            would be a token index. The index should not average raw token
-            prices mechanically. It should first convert each token class into a
-            common task-equivalent or effective-service unit. Then it can
-            aggregate across providers, models, service classes, and regions
-            using transparent weights.
+            would be a token index. The index begins by converting each token
+            class into a common effective-service unit. Only after that
+            conversion does aggregation make economic sense.
+          </p>
+          <p>
+            The conversion step is the scientific core of the index. It requires
+            benchmark tasks, measurement of expected solved-task yield, and
+            transparent treatment of service conditions such as latency,
+            certification, and region of delivery. Once those ingredients are
+            declared, the index can aggregate model-service prices using weights
+            that match the intended exposure.
           </p>
           <p>
             This index logic is analogous to benchmark construction in finance:
@@ -15204,11 +15215,10 @@ Cost_{u,t}
           <div className="learning-callout">
             <LineChart size={20} />
             <p>
-              The index idea is not only a dashboard feature. It is a research
-              object: choosing the unit of equivalence, benchmark tasks,
-              weights, rebalancing rules, and treatment of new models is
-              analogous to constructing a commodity index, inflation index, or
-              financial benchmark.
+              The index is a research object. Its credibility depends on the unit
+              of equivalence, the benchmark tasks, the weights, the rebalancing
+              rule, and the treatment of new models. The same issues arise in
+              commodity indices, inflation indices, and financial benchmarks.
             </p>
           </div>
         </section>
@@ -15217,11 +15227,12 @@ Cost_{u,t}
           <h3>14. Optimal Allocation Across Token Assets</h3>
           <p>
             A user who can choose among several model-token classes faces a
-            portfolio problem. The decision variable is not only how many tokens
-            to buy. It is how to route tasks across model classes, providers,
-            regions, and service levels. The allocation should trade off
-            expected task value, expected token cost, latency, quality risk,
-            compliance constraints, and future price risk.
+            portfolio problem. The decision is partly about quantity, but it is
+            also about routing. A workflow can be sent to a frontier model, a
+            smaller model with retries, a certified regional pool, or a cheaper
+            flexible pool. Each route creates a different distribution of task
+            value, token cost, latency, compliance exposure, and future price
+            risk.
           </p>
           <p>
             The optimization problem below adapts the portfolio-choice logic of

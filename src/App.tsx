@@ -44,11 +44,11 @@ export function App() {
           <span className="section-kicker">Token economics and AI compute finance</span>
           <h1>Pricing, hedging, and governing AI-compute exposure</h1>
           <p>
-            This research resource develops the economics and mathematical finance of AI
-            compute through tokens as non-equivalent accounting, pricing, and settlement
-            units: model-token assets, task-adjusted prices, energy exposure, hedging,
-            token indices, policy risk, and agent-based analysis. The simulation is an
-            accompanying laboratory for testing the mechanisms.
+            This research resource studies AI compute as an economic exposure. Tokens
+            enter as the accounting and settlement units through which model quality,
+            energy use, capacity scarcity, and policy constraints become measurable.
+            The simulation is a laboratory for testing these mechanisms under controlled
+            scenarios.
           </p>
         </div>
         <RunControls

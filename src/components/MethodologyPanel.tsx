@@ -9,7 +9,7 @@ export function MethodologyPanel() {
     },
     {
       title: "Supply chain",
-      body: "Electricity, grid connection, data-centre capacity, GPUs, model operations, legal access, and retail margins all enter the delivered token price.",
+      body: "The delivered token price reflects a production chain: power, grid access, accelerator capacity, model operation, legal access, and the provider margin.",
       icon: Network
     },
     {

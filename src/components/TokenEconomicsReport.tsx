@@ -1,5 +1,5 @@
 import { BookMarked, ChevronRight } from "lucide-react";
-import { MathEquation } from "./MathEquation";
+import { InlineMath, MathEquation } from "./MathEquation";
 
 const references = [
   {
@@ -186,7 +186,7 @@ const literatureStrands = [
   {
     title: "AI as a general-purpose input",
     claim:
-      "AI lowers the cost of prediction and task execution, which can reorganize production rather than merely automate existing routines.",
+      "AI lowers the cost of prediction and task execution. The effect can reorganize production, not just automate existing routines.",
     ids: [
       "AgrawalGansGoldfarb2019",
       "AcemogluRestrepo2018",
@@ -276,11 +276,10 @@ export function TokenEconomicsReport() {
         </span>
         <h2>The Economics of AI Tokens</h2>
         <p>
-          A research-level guide to what tokens are, why they are not just a
-          software marginal cost, how token markets may form, and how the
-          simulator translates the economics into equations for demand,
-          capacity, electricity, market clearing, scarcity rents, and political
-          economy.
+          A research-level guide to AI tokens as economic objects. The report
+          begins with the technical definition of a token, then develops the
+          connection to model service, infrastructure scarcity, market clearing,
+          and political economy.
         </p>
       </div>
 
@@ -301,10 +300,10 @@ export function TokenEconomicsReport() {
           >
             <h3>Reading guide</h3>
             <p className="report-lede">
-              The core argument is simple: a billable AI token is the visible
-              unit, but an effective token is a quality-adjusted claim on a
-              capital-intensive and politically constrained production chain.
-              Token markets should therefore be studied with tools from machine
+              The core argument is simple. A billable AI token is the visible
+              unit. An effective token is a quality-adjusted claim on model
+              service produced by a capital-intensive and politically constrained
+              system. The economic analysis therefore has to connect machine
               learning, industrial organization, electricity economics, real
               options, asset pricing, and political economy.
             </p>
@@ -372,7 +371,7 @@ export function TokenEconomicsReport() {
                 {
                   symbol: String.raw`s`,
                   meaning:
-                    "service conditions: latency, reliability, privacy, certification, context length, tool access, language coverage, and legal admissibility",
+                    "service conditions that determine whether a token can solve the relevant task",
                 },
               ]}
             />
@@ -391,12 +390,12 @@ export function TokenEconomicsReport() {
             <p>
               Operationally, tokens are the units that pass through model
               inference. A user sends input tokens, the model reads a context
-              window, and the model returns output tokens. The platform may also
-              spend hidden tokens on tool calls, retrieval, reasoning traces,
-              safety classifiers, caching, embeddings, routing, and multimodal
-              encoders. The economic cost of one visible billable token is
-              therefore the cost of the whole service pathway, not just the
-              visible character count.
+              window, and the model returns output tokens. In a modern application
+              the visible exchange may be only part of the service path. The
+              platform can spend additional compute on retrieval, tool use,
+              reasoning traces, moderation, caching, embeddings, routing, or
+              multimodal encoding. The economic cost of one visible billable
+              token is therefore the cost of the whole service pathway.
             </p>
             <MathEquation
               title="Service token accounting"
@@ -596,9 +595,11 @@ B^{EU,glob}_{T}&=F^{EU}_{T}-F^{glob}_{T}.
             <h3>5. Model overview and notation</h3>
             <p>
               The simulator is an agent-based, reduced-form market model. It
-              uses weighted super-agents rather than individual people or firms.
-              Time is indexed by t, agents by i, compute regions by r, and
-              electricity zones by z.
+              represents user groups as weighted super-agents. Time is indexed by{" "}
+              <InlineMath latex={String.raw`t`} />, agents by{" "}
+              <InlineMath latex={String.raw`i`} />, compute regions by{" "}
+              <InlineMath latex={String.raw`r`} />, and electricity zones by{" "}
+              <InlineMath latex={String.raw`z`} />.
             </p>
             <table className="notation-table">
               <tbody>
@@ -1091,8 +1092,7 @@ R_{j,t}&=\rho_{j,t}R_t.
               At each period the simulator updates state in a fixed order. This
               order is part of the model definition: policy changes demand
               routing before market clearing; electricity is priced before token
-              marginal cost; investment affects future capacity rather than
-              current capacity.
+              marginal cost; investment affects future capacity after a delay.
             </p>
             <ol className="process-list">
               <li>
@@ -1206,9 +1206,9 @@ R_{j,t}&=\rho_{j,t}R_t.
               compute rules can protect privacy, security, and industrial
               capability. They can also move demand from a large global supply
               curve to a smaller local supply curve. If grid-connected AI
-              capacity lags, the result is not merely a higher electricity bill.
-              It is a token-price wedge, rationing, and possibly lower
-              productivity in firms and public agencies.{" "}
+              capacity lags, the result is a token-price wedge. The wedge can
+              create rationing and lower productivity in firms and public
+              agencies.{" "}
               <Cite
                 ids={["EUAIAct", "EUAIContinent", "Epoch2025", "AIIndex2026"]}
               />

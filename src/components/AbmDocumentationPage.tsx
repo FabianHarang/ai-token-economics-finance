@@ -543,7 +543,7 @@ export function AbmDocumentationPage() {
             <MathEquation
               title="Policy routing into local and flexible pools"
               latex={String.raw`L_{i,t}=\lambda_{i,t}Q_{i,t},\qquad F_{i,t}=(1-\lambda_{i,t})Q_{i,t}`}
-              explanation="Policy does not only change total demand. It changes where demand is legally allowed to be served. The local-required pool clears against EU-local or certified compute, while the flexible pool may use global or allied compute."
+              explanation="Policy changes the legal routing of demand. The local-required pool clears against EU-local or certified compute. The flexible pool may use global or allied compute."
               variables={[
                 {
                   symbol: String.raw`L_{i,t}`,
