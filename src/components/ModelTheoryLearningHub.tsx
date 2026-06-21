@@ -12386,7 +12386,7 @@ function TokenPortfolioHedgingArticle() {
             The next implementation step is to add a portfolio layer to the
             simulator output: exposure by token class, hedge instruments,
             reserved capacity, liquidity buffer, tail budget, CVaR, and basis
-            loss. That would make the digital twin directly useful for
+            loss. That would make the analysis tool directly useful for
             procurement research.
           </p>
         </section>
@@ -15546,7 +15546,7 @@ Cost_{u,t}
         <section id="token-abm-link">
           <h3>17. How This Enters the ABM</h3>
           <p>
-            The current digital twin uses "effective token" as the demand and
+            The current simulation tool uses "effective token" as the demand and
             capacity unit. For tractability, it sets{" "}
             <InlineMath latex={String.raw`q_{u,m,r,t}=1`} /> in the first
             release. This means that one simulated token is interpreted as one
