@@ -1,0 +1,32 @@
+[
+  {
+    "id": "none",
+    "label": "Open global compute",
+    "scope": "none",
+    "foreignComputeAccess": "global"
+  },
+  {
+    "id": "public_only",
+    "label": "Public-sector sovereign compute",
+    "scope": "public_only",
+    "foreignComputeAccess": "eu_only"
+  },
+  {
+    "id": "regulated_and_public",
+    "label": "Regulated sectors and public sector",
+    "scope": "regulated_and_public",
+    "foreignComputeAccess": "eu_only"
+  },
+  {
+    "id": "all_eu",
+    "label": "All EU demand",
+    "scope": "all_eu",
+    "foreignComputeAccess": "eu_only"
+  },
+  {
+    "id": "allied",
+    "label": "Certified allied compute",
+    "scope": "regulated_and_public",
+    "foreignComputeAccess": "allied"
+  }
+]

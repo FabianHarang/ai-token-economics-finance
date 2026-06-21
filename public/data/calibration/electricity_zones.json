@@ -1,0 +1,58 @@
+[
+  {
+    "zone": "DE-LU",
+    "basePriceIndex": 106,
+    "referenceLoadIndex": 220,
+    "gridHeadroomMW": 680,
+    "dataCentreLoadMW": 520,
+    "congestionFactor": 0.18
+  },
+  {
+    "zone": "FR",
+    "basePriceIndex": 92,
+    "referenceLoadIndex": 190,
+    "gridHeadroomMW": 760,
+    "dataCentreLoadMW": 390,
+    "congestionFactor": 0.1
+  },
+  {
+    "zone": "NL",
+    "basePriceIndex": 112,
+    "referenceLoadIndex": 80,
+    "gridHeadroomMW": 210,
+    "dataCentreLoadMW": 430,
+    "congestionFactor": 0.28
+  },
+  {
+    "zone": "ES",
+    "basePriceIndex": 96,
+    "referenceLoadIndex": 150,
+    "gridHeadroomMW": 540,
+    "dataCentreLoadMW": 210,
+    "congestionFactor": 0.09
+  },
+  {
+    "zone": "IT-North",
+    "basePriceIndex": 118,
+    "referenceLoadIndex": 160,
+    "gridHeadroomMW": 360,
+    "dataCentreLoadMW": 240,
+    "congestionFactor": 0.16
+  },
+  {
+    "zone": "NO-SE-FI",
+    "basePriceIndex": 78,
+    "referenceLoadIndex": 110,
+    "gridHeadroomMW": 820,
+    "dataCentreLoadMW": 360,
+    "congestionFactor": 0.07
+  },
+  {
+    "zone": "EU-Mix",
+    "basePriceIndex": 101,
+    "referenceLoadIndex": 250,
+    "gridHeadroomMW": 620,
+    "dataCentreLoadMW": 330,
+    "congestionFactor": 0.13
+  }
+]

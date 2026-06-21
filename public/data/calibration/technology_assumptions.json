@@ -1,0 +1,17 @@
+{
+  "baselineTokensPerMWhIndex": 100,
+  "baselinePue": 1.21,
+  "baselineEuLocalTokenCapacity": 86,
+  "baselineGlobalTokenCapacity": 310,
+  "baselineAlliedTokenCapacity": 150,
+  "baselineGpuCapacity": 91,
+  "baselineDataCentreCapacity": 104,
+  "baselineGridConnectionCapacity": 82,
+  "baselineElectricityMWhPerTokenIndex": 100,
+  "amortizedGpuCostIndex": 28,
+  "amortizedDataCentreCostIndex": 18,
+  "operationsCostIndex": 10,
+  "complianceCostIndex": 5,
+  "providerMarkupRate": 0.12,
+  "referenceTokenPriceIndex": 100
+}

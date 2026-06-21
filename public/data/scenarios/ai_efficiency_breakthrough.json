@@ -1,0 +1,49 @@
+{
+  "id": "ai_efficiency_breakthrough",
+  "name": "AI efficiency breakthrough",
+  "description": "Tokens per MWh improve faster, lowering electricity intensity and stretching local compute capacity.",
+  "timeline": {
+    "startYear": 2026,
+    "endYear": 2035,
+    "step": "quarter"
+  },
+  "regulation": {
+    "euOnlyComputeStartYear": 2028,
+    "scope": "regulated_and_public",
+    "foreignComputeAccess": "eu_only",
+    "publicSectorPriority": false,
+    "tokenPriceCap": null,
+    "dataCentreSubsidyPerMW": 0,
+    "carbonConstraint": 0.03
+  },
+  "demand": {
+    "consumerAdoptionGrowth": 0.13,
+    "firmAdoptionGrowth": 0.19,
+    "publicSectorAdoptionGrowth": 0.11,
+    "aiProviderInternalGrowth": 0.2,
+    "firmTokenIntensity": 1.12,
+    "publicSectorAiDependence": 1.15,
+    "agenticWorkflowMultiplier2030": 2.7
+  },
+  "technology": {
+    "tokensPerMWhImprovementAnnual": 0.32,
+    "pueImprovementAnnual": 0.018,
+    "gpuSupplyGrowthAnnual": 0.24
+  },
+  "electricity": {
+    "basePriceShock": 0,
+    "gridExpansionSpeedMultiplier": 1,
+    "priceConvexity": 2,
+    "scarcityShock": 0,
+    "weatherVolatility": 0.14,
+    "weatherPersistence": 0.65,
+    "weatherPriceSensitivity": 0.09
+  },
+  "dataCentres": {
+    "buildTimeYears": 2.25,
+    "gridConnectionDelayYears": 3.5,
+    "permittingDelayYears": 1,
+    "investmentSensitivity": 0.72,
+    "moratoriumSeverity": 0
+  }
+}

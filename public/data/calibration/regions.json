@@ -1,0 +1,72 @@
+[
+  {
+    "id": "de",
+    "name": "Germany",
+    "zone": "DE-LU",
+    "lat": 51.17,
+    "lon": 10.45,
+    "demandWeight": 0.24,
+    "regulatedFirmShare": 0.62,
+    "publicExposure": 0.18
+  },
+  {
+    "id": "fr",
+    "name": "France",
+    "zone": "FR",
+    "lat": 46.23,
+    "lon": 2.21,
+    "demandWeight": 0.19,
+    "regulatedFirmShare": 0.56,
+    "publicExposure": 0.2
+  },
+  {
+    "id": "nl",
+    "name": "Netherlands",
+    "zone": "NL",
+    "lat": 52.13,
+    "lon": 5.29,
+    "demandWeight": 0.11,
+    "regulatedFirmShare": 0.58,
+    "publicExposure": 0.13
+  },
+  {
+    "id": "es",
+    "name": "Spain",
+    "zone": "ES",
+    "lat": 40.46,
+    "lon": -3.75,
+    "demandWeight": 0.12,
+    "regulatedFirmShare": 0.51,
+    "publicExposure": 0.19
+  },
+  {
+    "id": "it",
+    "name": "Italy",
+    "zone": "IT-North",
+    "lat": 42.5,
+    "lon": 12.57,
+    "demandWeight": 0.14,
+    "regulatedFirmShare": 0.53,
+    "publicExposure": 0.18
+  },
+  {
+    "id": "nordics",
+    "name": "Nordics",
+    "zone": "NO-SE-FI",
+    "lat": 61.92,
+    "lon": 10.75,
+    "demandWeight": 0.1,
+    "regulatedFirmShare": 0.5,
+    "publicExposure": 0.16
+  },
+  {
+    "id": "rest_eu",
+    "name": "Rest of EU",
+    "zone": "EU-Mix",
+    "lat": 48,
+    "lon": 14,
+    "demandWeight": 0.1,
+    "regulatedFirmShare": 0.52,
+    "publicExposure": 0.19
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "id": "baseline_global_compute",
+  "name": "Baseline global compute",
+  "description": "EU users retain broad access to global AI compute while EU-local capacity grows gradually.",
+  "timeline": {
+    "startYear": 2026,
+    "endYear": 2035,
+    "step": "quarter"
+  },
+  "regulation": {
+    "euOnlyComputeStartYear": null,
+    "scope": "none",
+    "foreignComputeAccess": "global",
+    "publicSectorPriority": false,
+    "tokenPriceCap": null,
+    "dataCentreSubsidyPerMW": 0,
+    "carbonConstraint": 0
+  },
+  "demand": {
+    "consumerAdoptionGrowth": 0.1,
+    "firmAdoptionGrowth": 0.14,
+    "publicSectorAdoptionGrowth": 0.08,
+    "aiProviderInternalGrowth": 0.16,
+    "firmTokenIntensity": 1,
+    "publicSectorAiDependence": 1,
+    "agenticWorkflowMultiplier2030": 1.8
+  },
+  "technology": {
+    "tokensPerMWhImprovementAnnual": 0.16,
+    "pueImprovementAnnual": 0.01,
+    "gpuSupplyGrowthAnnual": 0.22
+  },
+  "electricity": {
+    "basePriceShock": 0,
+    "gridExpansionSpeedMultiplier": 1,
+    "priceConvexity": 2.05,
+    "scarcityShock": 0,
+    "weatherVolatility": 0.14,
+    "weatherPersistence": 0.65,
+    "weatherPriceSensitivity": 0.1
+  },
+  "dataCentres": {
+    "buildTimeYears": 2.25,
+    "gridConnectionDelayYears": 3.5,
+    "permittingDelayYears": 1,
+    "investmentSensitivity": 0.65,
+    "moratoriumSeverity": 0
+  }
+}

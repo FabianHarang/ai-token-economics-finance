@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rhine-main",
+    "name": "Rhine-Main sovereign compute cluster",
+    "region": "de",
+    "biddingZone": "DE-LU",
+    "physicalItCapacityMW": 410,
+    "gridConnectionMW": 310,
+    "pue": 1.22,
+    "gpuCapacityIndex": 20
+  },
+  {
+    "id": "paris-research",
+    "name": "Paris research and public cloud cluster",
+    "region": "fr",
+    "biddingZone": "FR",
+    "physicalItCapacityMW": 320,
+    "gridConnectionMW": 290,
+    "pue": 1.2,
+    "gpuCapacityIndex": 17
+  },
+  {
+    "id": "amsterdam-edge",
+    "name": "Amsterdam edge and enterprise hub",
+    "region": "nl",
+    "biddingZone": "NL",
+    "physicalItCapacityMW": 330,
+    "gridConnectionMW": 185,
+    "pue": 1.19,
+    "gpuCapacityIndex": 14
+  },
+  {
+    "id": "madrid-campus",
+    "name": "Madrid AI services campus",
+    "region": "es",
+    "biddingZone": "ES",
+    "physicalItCapacityMW": 210,
+    "gridConnectionMW": 185,
+    "pue": 1.23,
+    "gpuCapacityIndex": 9
+  },
+  {
+    "id": "milan-inference",
+    "name": "Milan regulated inference hub",
+    "region": "it",
+    "biddingZone": "IT-North",
+    "physicalItCapacityMW": 190,
+    "gridConnectionMW": 150,
+    "pue": 1.24,
+    "gpuCapacityIndex": 8
+  },
+  {
+    "id": "nordic-hydro",
+    "name": "Nordic hydro-backed compute zone",
+    "region": "nordics",
+    "biddingZone": "NO-SE-FI",
+    "physicalItCapacityMW": 420,
+    "gridConnectionMW": 380,
+    "pue": 1.16,
+    "gpuCapacityIndex": 16
+  }
+]

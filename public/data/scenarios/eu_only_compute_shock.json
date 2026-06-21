@@ -1,0 +1,49 @@
+{
+  "id": "eu_only_compute_shock",
+  "name": "EU-only compute shock",
+  "description": "From 2028, EU public-sector and regulated firms must use EU-executed compute.",
+  "timeline": {
+    "startYear": 2026,
+    "endYear": 2035,
+    "step": "quarter"
+  },
+  "regulation": {
+    "euOnlyComputeStartYear": 2028,
+    "scope": "regulated_and_public",
+    "foreignComputeAccess": "eu_only",
+    "publicSectorPriority": false,
+    "tokenPriceCap": null,
+    "dataCentreSubsidyPerMW": 0,
+    "carbonConstraint": 0.05
+  },
+  "demand": {
+    "consumerAdoptionGrowth": 0.12,
+    "firmAdoptionGrowth": 0.18,
+    "publicSectorAdoptionGrowth": 0.1,
+    "aiProviderInternalGrowth": 0.18,
+    "firmTokenIntensity": 1.08,
+    "publicSectorAiDependence": 1.15,
+    "agenticWorkflowMultiplier2030": 2.5
+  },
+  "technology": {
+    "tokensPerMWhImprovementAnnual": 0.16,
+    "pueImprovementAnnual": 0.01,
+    "gpuSupplyGrowthAnnual": 0.2
+  },
+  "electricity": {
+    "basePriceShock": 0.02,
+    "gridExpansionSpeedMultiplier": 0.9,
+    "priceConvexity": 2.25,
+    "scarcityShock": 0.02,
+    "weatherVolatility": 0.18,
+    "weatherPersistence": 0.68,
+    "weatherPriceSensitivity": 0.13
+  },
+  "dataCentres": {
+    "buildTimeYears": 2.5,
+    "gridConnectionDelayYears": 4.25,
+    "permittingDelayYears": 1.25,
+    "investmentSensitivity": 0.72,
+    "moratoriumSeverity": 0
+  }
+}

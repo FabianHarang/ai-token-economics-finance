@@ -1,0 +1,57 @@
+[
+  {
+    "id": "consumers",
+    "label": "Consumers",
+    "kind": "consumer",
+    "baseDemand": 32,
+    "elasticity": 0.95,
+    "criticalShare": 0.1,
+    "regulatedShare": 0,
+    "productivityMultiplier": 0.25,
+    "sovereigntyRequirement": 0.05
+  },
+  {
+    "id": "regulated_firms",
+    "label": "Regulated firms",
+    "kind": "firm",
+    "baseDemand": 46,
+    "elasticity": 0.42,
+    "criticalShare": 0.48,
+    "regulatedShare": 1,
+    "productivityMultiplier": 1.2,
+    "sovereigntyRequirement": 0.8
+  },
+  {
+    "id": "unregulated_firms",
+    "label": "Unregulated firms and SMEs",
+    "kind": "firm",
+    "baseDemand": 38,
+    "elasticity": 0.62,
+    "criticalShare": 0.32,
+    "regulatedShare": 0,
+    "productivityMultiplier": 0.85,
+    "sovereigntyRequirement": 0.15
+  },
+  {
+    "id": "public_sector",
+    "label": "Public sector",
+    "kind": "public",
+    "baseDemand": 24,
+    "elasticity": 0.28,
+    "criticalShare": 0.72,
+    "regulatedShare": 1,
+    "productivityMultiplier": 1.5,
+    "sovereigntyRequirement": 1
+  },
+  {
+    "id": "ai_providers",
+    "label": "AI-provider internal compute",
+    "kind": "provider",
+    "baseDemand": 20,
+    "elasticity": 0.5,
+    "criticalShare": 0.38,
+    "regulatedShare": 0.35,
+    "productivityMultiplier": 0.95,
+    "sovereigntyRequirement": 0.25
+  }
+]

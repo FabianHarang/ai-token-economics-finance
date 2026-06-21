@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "de", "name": "Germany" },
+      "geometry": { "type": "Point", "coordinates": [10.45, 51.17] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "fr", "name": "France" },
+      "geometry": { "type": "Point", "coordinates": [2.21, 46.23] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nl", "name": "Netherlands" },
+      "geometry": { "type": "Point", "coordinates": [5.29, 52.13] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "es", "name": "Spain" },
+      "geometry": { "type": "Point", "coordinates": [-3.75, 40.46] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "it", "name": "Italy" },
+      "geometry": { "type": "Point", "coordinates": [12.57, 42.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nordics", "name": "Nordics" },
+      "geometry": { "type": "Point", "coordinates": [10.75, 61.92] }
+    }
+  ]
+}
