@@ -11,8 +11,10 @@ This is not a forecast. The simulation is a scenario exploration tool for unders
 This project is configured for GitHub Pages:
 
 ```text
-https://fabianharang.github.io/ai-token-economics-finance/
+https://www.fabianharang.no/ai-token-economics-finance/
 ```
+
+The standard GitHub Pages URL redirects to the custom-domain URL above.
 
 ## What The Analysis Tool Shows
 
