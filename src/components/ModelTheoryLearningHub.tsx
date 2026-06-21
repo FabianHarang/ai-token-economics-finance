@@ -1330,11 +1330,6 @@ function LearningMasterplan({
                 <span className="module-row-main">
                   <span className="module-row-meta">
                     {module.milestone}
-                    <span className={`module-status ${module.status}`}>
-                      {module.status === "ready"
-                        ? "Ready for review"
-                        : "Planned"}
-                    </span>
                   </span>
                   <strong>{module.title}</strong>
                   <span>{module.subtitle}</span>
@@ -1396,9 +1391,6 @@ function LearningArticleFrame({
       <header className="learning-article-header">
         <span className="module-row-meta">
           {module.milestone}
-          <span className={`module-status ${module.status}`}>
-            {module.status === "ready" ? "Ready for review" : "Planned"}
-          </span>
         </span>
         <h2>{module.title}</h2>
         <p>{module.subtitle}</p>
