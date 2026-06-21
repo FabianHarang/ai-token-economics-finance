@@ -45,7 +45,6 @@ type LearningModuleId =
 interface LearningModule {
   id: LearningModuleId;
   milestone: string;
-  status: "ready" | "planned";
   icon: LucideIcon;
   title: string;
   subtitle: string;
@@ -57,7 +56,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-token-foundations",
     milestone: "Milestone 1",
-    status: "ready",
     icon: BookOpenCheck,
     title: "What is an AI token?",
     subtitle:
@@ -70,7 +68,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-economic-asset",
     milestone: "Milestone 2",
-    status: "ready",
     icon: LineChart,
     title: "How can tokens become tradable assets?",
     subtitle:
@@ -83,7 +80,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-token-production-energy",
     milestone: "Milestone 3",
-    status: "ready",
     icon: Zap,
     title: "How do tokens become energy and climate exposure?",
     subtitle:
@@ -96,7 +92,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-equation-map",
     milestone: "Milestone 4",
-    status: "ready",
     icon: Sigma,
     title: "Mathematical Model of Token Economics",
     subtitle:
@@ -109,7 +104,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-abm-architecture",
     milestone: "Milestone 5",
-    status: "ready",
     icon: Network,
     title: "Agent-Based Analysis Tool for Token Economics",
     subtitle:
@@ -122,7 +116,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-policy-lab",
     milestone: "Milestone 6",
-    status: "ready",
     icon: Landmark,
     title: "How do policy and geopolitics shape token finance?",
     subtitle:
@@ -135,7 +128,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-advanced-learning",
     milestone: "Milestone 7",
-    status: "ready",
     icon: BrainCircuit,
     title: "How can learning methods improve token finance research?",
     subtitle:
@@ -148,7 +140,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-data-calibration",
     milestone: "Milestone 8",
-    status: "ready",
     icon: Database,
     title: "How should token-economics models be measured and calibrated?",
     subtitle:
@@ -161,7 +152,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-portfolio-hedging",
     milestone: "Milestone 9",
-    status: "ready",
     icon: Layers,
     title: "How should token exposure be allocated, hedged, and stress tested?",
     subtitle:
@@ -174,7 +164,6 @@ const learningModules: LearningModule[] = [
   {
     id: "learn-theorem-proof-layer",
     milestone: "Milestone 10",
-    status: "ready",
     icon: CheckCircle2,
     title: "Theorems, Proofs, and Research Frontiers",
     subtitle:
@@ -1449,7 +1438,7 @@ function PlannedModulePage({ module }: { module: LearningModule }) {
     <article className="learning-planned-page">
       <FlaskConical size={24} />
       <h3>
-        {module.milestone} will be executed after the previous review gate
+        {module.milestone} will be expanded after the preceding module is complete
       </h3>
       <p>
         This page is intentionally not expanded yet. The workflow is sequential:

@@ -757,24 +757,6 @@ td span {
   gap: 4px;
 }
 
-.module-status {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  color: var(--petrol);
-  display: inline-flex;
-  margin-left: 8px;
-  padding: 2px 6px;
-}
-
-.module-status.ready {
-  background: rgb(28 138 143 / 10%);
-  border-color: rgb(28 138 143 / 24%);
-}
-
-.module-status.planned {
-  background: rgb(94 115 120 / 9%);
-}
-
 .learning-page-toolbar {
   align-items: center;
   border-bottom: 1px solid var(--line);
